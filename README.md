@@ -2,6 +2,23 @@
 
 A role-specialized multi-agent trading research system designed to simulate a hedge fund workflow through research, risk control, backtesting, paper trading, and post-trade review.
 
+
+## Proof Snapshot
+
+| Signal | Current evidence |
+|---|---|
+| Research scope | Historical research covers `8` strategy versions and selects Quality Momentum Breakout as the production candidate. |
+| Backtest window | Reported simulation spans `2012-2026` across `100` US large-cap stocks with weekly rebalance and transaction costs. |
+| Risk-adjusted result | QMB reports `+19.8%` CAGR, `0.95` Sharpe, `-28%` max drawdown, and `722` trades under stated assumptions. |
+| Agent architecture | Four specialized agents evaluate momentum, trend/quality, risk, and regime before PM approval. |
+| Audit trail | Decision artifacts and backtest reports are retained under `reports/` with charts and agent decision outputs. |
+
+## What This Proves
+
+- The project frames trading research as an auditable multi-agent decision system rather than a single strategy script.
+- Risk controls, transaction costs, drawdown analysis, and post-trade review are visible in the research workflow.
+- The evidence maps to Applied ML, financial AI, agentic systems, and quantitative research roles.
+
 ## What This Project Is
 
 Most trading repos stop at a single strategy or a single backtest. This project takes a different approach: it models trading as a structured decision process where specialized agents handle momentum, trend/quality, risk, market regime, portfolio decisions, and trade review.
