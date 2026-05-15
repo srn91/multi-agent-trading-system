@@ -2,6 +2,8 @@
 
 A multi-agent trading research system designed to simulate a hedge fund workflow through research, risk control, backtesting, paper trading, and post-trade review.
 
+**System type:** Research system  
+**System brief:** [docs/system-brief.md](docs/system-brief.md)
 
 ## Results
 
